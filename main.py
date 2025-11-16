@@ -210,7 +210,7 @@ def main() -> None:
         plt.xticks(range(len(robot_bars_s)), list(robot_bars_s.keys()))
         plt.xlabel("Battles")
         plt.ylabel("Probability of Death")
-        plt.title(f"{distance_text}\nProbably of Number of Battles for Soldier to Kill a Robot\n{r_deaths:.1f}% Mean: {r_mean:.2f} var: {r_var:.2f}")
+        plt.title(f"{distance_text}\nNumber of Battles for Soldier to Kill a Robot\n{r_deaths:.1f}% Mean: {r_mean:.2f} var: {r_var:.2f}")
         plt.savefig(f"Graph_Output\\{distance_text}_Robot.png", dpi=300, bbox_inches='tight')
         plt.clf()
 
@@ -233,7 +233,7 @@ def main() -> None:
         plt.xticks(range(len(soldier_bars_s)), list(soldier_bars_s.keys()))
         plt.xlabel("Battles")
         plt.ylabel("Probability of Death")
-        plt.title(f"{distance_text}\nProbably of Number of Battles for Robot to Kill a Soldier\n{s_deaths:.1f}% Mean: {s_mean:.2f} var: {s_var:.2f}")
+        plt.title(f"{distance_text}\nNumber of Battles for Robot to Kill a Soldier\n{s_deaths:.1f}% Mean: {s_mean:.2f} var: {s_var:.2f}")
         plt.savefig(f"Graph_Output\\{distance_text}_Soldier.png", dpi=300, bbox_inches='tight')
         plt.clf()
         # Console Output

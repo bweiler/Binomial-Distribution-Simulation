@@ -1,7 +1,7 @@
 import random
 import matplotlib.pyplot as plt
 
-BATTLES = 100000
+BATTLES = 10000000
 
 # Gauss Rifle and Machine Pistol have minimum range of 12" 
 # Gauss Rifle (but not Machine Pistol) fires twice at half distance 6" =< x > 2" 

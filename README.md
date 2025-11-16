@@ -10,17 +10,17 @@ Three seperate distances are used. The program outputs figures from matplotlib (
 **Sample Output:**
 
 Binomial simulation of deaths between a Space Soldier (Machine Pistol plus Knifesword) and a Souless Robot (Guass Rifle)
-Battle Simulations: 100000
+Battle Simulations: 10000000
 
 Ranged Far (14 - 8 inches)
-Robot Deaths:   67.2% Battles Mean: 3.66 var: 16.18
-Soldier Deaths: 32.8% Battles Mean: 2.69 var: 19.13
- 
+Robot Deaths:   66.9% Battles Mean: 3.62 var: 15.83
+Soldier Deaths: 33.1% Battles Mean: 2.72 var: 18.52
+
 Range Near (7 - 2 inches)
-Robot Deaths:   44.8% Battles Mean: 1.67 var: 5.86
-Soldier Deaths: 55.2% Battles Mean: 2.95 var: 4.24
- 
+Robot Deaths:   45.0% Battles Mean: 1.67 var: 5.70
+Soldier Deaths: 55.0% Battles Mean: 2.92 var: 4.10
+
 Melee (within 1 inch)
-Robot Deaths:   73.5% Battles Mean: 2.41 var: 5.46
-Soldier Deaths: 26.5% Battles Mean: 1.39 var: 7.53
+Robot Deaths:   73.8% Battles Mean: 2.42 var: 5.36
+Soldier Deaths: 26.2% Battles Mean: 1.36 var: 7.51
  
